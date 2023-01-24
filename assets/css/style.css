@@ -1,0 +1,47 @@
+:root {
+    --rich-black: #011627;
+    --spanish-blue: #0070b8; /* color close to LinkedIn but not quite */
+    --snow-white: #fffafa;
+    --middle-grey: #817f75;
+    --russian-violet: #231651;
+}
+
+body {
+    margin: 0;
+    padding: 1vh 1vw 1vh 1vw;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#input-el {
+    color: var(--spanish-blue); 
+    width: 100%;
+    height: 5vh;
+    padding: 3vh 0.5vw 3vh 0.5vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 5px;
+    border: solid 1px var(--middle-grey);
+    font-size: large;
+}
+
+#input-el:focus {
+    outline-color: var(--spanish-blue);
+}
+
+#save-btn {
+    color: var(--snow-white);
+    font-weight: bold;
+    background-color: var(--spanish-blue);
+    width: 5vw;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1vh;
+    overflow: hidden;
+}
+
+/* add style for hover on btn */
+
+/* prevent browser getting smaller after a certain point? */
+
+/* need mobile design? */
