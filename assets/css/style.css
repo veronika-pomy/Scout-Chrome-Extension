@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 1vh 1vw 1vh 1vw;
     font-family: Helvetica, Arial, sans-serif;
+    min-width: 400px;
 }
 
 #input-el {
@@ -28,11 +29,13 @@ body {
     outline-color: var(--spanish-blue);
 }
 
+/* fix the vw and vh for the button, want it to be the same size always, start from the smallest window */
+/* make text bigger */
 #save-btn {
     color: var(--snow-white);
     font-weight: bold;
     background-color: var(--spanish-blue);
-    width: 5vw;
+    width: 10vw;
     height: 5vh;
     border: none;
     border-radius: 5px;
@@ -42,6 +45,24 @@ body {
 
 /* add style for hover on btn */
 
+ul {
+    list-style: none;
+    margin-top: 3vh;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+a {
+    color: var(--spanish-blue);
+}
+
+a:visited { 
+    text-decoration: none; 
+}
 /* prevent browser getting smaller after a certain point? */
 
 /* need mobile design? */
